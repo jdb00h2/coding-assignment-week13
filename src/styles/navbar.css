@@ -1,0 +1,27 @@
+.navigation {
+    background-color: midnightblue;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.navigation-menu {
+    margin-left: auto;
+    padding: 3px;
+}
+.navigation-menu li{
+    list-style-type: none;
+    color:white;
+}
+
+.navigation-menu li a {
+    color:white;
+    display: block;
+    width: 100%;
+    font-size: larger;
+    padding: 4px
+}
+
+.navigation-menu ul{
+    display: flex;
+}
